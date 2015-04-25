@@ -1,3 +1,14 @@
+  @font-face {
+    font-family: 'EntypoRegular';
+    src: url('font/Entypo-webfont.eot');
+    src: url('font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Entypo-webfont.woff') format('woff'),
+         url('font/Entypo-webfont.ttf') format('truetype'),
+         url('font/Entypo-webfont.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 /* General Styles */
 body {
   background-color: rgb(241, 241, 241);
@@ -7,6 +18,7 @@ body {
   margin: 0px auto;
   min-width: 960px;
   width: 100%;
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
 p {
@@ -18,10 +30,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+  background-color: black;
+}
+
 h1 {
   font-size: 2.2em;
   float: left;
   line-height: 75px;
+  font-family: 'Audiowide', 'Arial', sans-serif;  
 }
 
 h2 {
@@ -32,6 +50,7 @@ h2 {
   line-height: 80px;
   margin: 0 0 0.5em 0;
   text-align: center;
+  font-family: 'Quicksand', 'Arial', sans-serif;    
 }
 
 h3 {
@@ -65,12 +84,13 @@ h4 {
   position: absolute;
   text-decoration: none;
   top: 0;
+  font-family: 'EntypoRegular', sans-serif;  
 }
 .jump.up {
   left: 15px;
 }
 .jump.down {
-  right: 15px;
+  right: 15px;    
 }
 
 
